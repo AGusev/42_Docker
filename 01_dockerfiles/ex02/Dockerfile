@@ -22,5 +22,4 @@ RUN bundle install && rake db:migrate && rake db:setup && rake db:seed
 
 CMD ["rails", "server"]
 
-#to run this use
 #docker run -it -p 3000:3000 --link db-data --name serv server

@@ -1,3 +1,5 @@
 #!/bin/bash
 # “—driver” flag tells docker machine which platform to use
+# docker-machine rm Char
+# /nfs/2019/a/agusev/.docker/machine/
 docker-machine create --driver virtualbox Char
