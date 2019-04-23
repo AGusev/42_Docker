@@ -1,0 +1,4 @@
+#!/bin/bash
+# swarm is a cluster of one or more computers running Docker
+docker swarm init --advertise-addr eth1
+

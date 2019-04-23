@@ -1,0 +1,3 @@
+#!/bin/bash
+# “—driver” flag tells docker machine which platform to use
+docker-machine create --driver virtualbox Char
